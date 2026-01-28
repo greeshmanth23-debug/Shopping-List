@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding:50px;
+    margin-top: 50px;
+}
+body{
+    font-size: 30px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
+h1{
+    font-size: 50px;
+}
+.Add-item{
+    padding:10px;
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: lightgreen;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.clear{
+    padding:10px;
+    color:black;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text{
+    height:30px;
+}
+.filter{
+    height:30px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.list-items{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    gap:50px;
+    padding-left: 50px;
+}
+li{
+    list-style: none;
+}
+button{
+    transition: 0.5s ease;
+}
+button:hover{
+    transform: scale(1.15);
+}
